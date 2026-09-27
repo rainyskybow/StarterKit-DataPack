@@ -107,12 +107,12 @@ OP権限を付与するには、サーバー管理者が以下のコマンドを
 
 ### エンチャントの構文 (1.20.5以降)
 ```
-/give @a[tag=starter_kit_target] minecraft:iron_pickaxe[enchantments={levels:{"minecraft:fortune":2}}] 1
+give @a[tag=starter_kit_target] minecraft:iron_pickaxe[enchantments={levels:{"minecraft:fortune":2}}] 1
 ```
 
 ### 古いバージョン (1.20.4以前)
 ```
-/give @a[tag=starter_kit_target] minecraft:iron_pickaxe{Enchantments:[{id:"minecraft:fortune",lvl:2}]} 1
+give @a[tag=starter_kit_target] minecraft:iron_pickaxe{Enchantments:[{id:"minecraft:fortune",lvl:2}]} 1
 ```
 
 ## トラブルシューティング
